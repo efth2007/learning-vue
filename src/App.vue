@@ -60,31 +60,18 @@ this.tasksA = this.tasksA.map(
   task
 )
   },
- 
+ async fetchTasks(){
+    const res = await fetch('http://localhost:3000/tasksA')
+
+    const data = await res.json()
+    return data
+ },
+
+
   
   },
-  created() {
-    this.tasksA = [
-      {
-        id:1,
-        text: 'Do your groceries',
-        day: 'Tuesday',
-        reminder: true
-      },
-          {
-        id:2,
-        text: 'Go see friends',
-        day: 'Friday',
-        reminder: true
-      },
-          {
-        id:3,
-        text: 'Remember to chillax',
-        day: 'Sunday',
-        reminder: false
-      },
-
-    ]
+  async created() {
+    this.tasksA = await this.fetchTasks()
   }
 }
 </script>
