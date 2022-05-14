@@ -1,23 +1,28 @@
 {
-    "tasksA" : [
-      {
-        "id":"1",
-        "text": "Do your groceries",
-        "day": "Tuesday",
-        "reminder": true
-      },
-          {
-            "id":"2",
-            "text": "Go see friends",
-            "day": "Friday",
-            "reminder": true
-      },
-          {
-            "id":"3",
-            "text": "Remember to chillax",
-            "day": "Sunday",
-            "reminder": false
-      }
-
-    ]
-  }
+  "tasksA": [
+    {
+      "id": "1",
+      "text": "Do your groceries",
+      "day": "Tuesday",
+      "reminder": true
+    },
+    {
+      "id": "2",
+      "text": "Dentist",
+      "day": "Monday",
+      "reminder": false
+    },
+    {
+      "text": "Call friends",
+      "day": "Tuesday",
+      "reminder": false,
+      "id": "92PLdTX"
+    },
+    {
+      "text": "Clean house",
+      "day": "Sunday",
+      "reminder": true,
+      "id": "aiJaHVe"
+    }
+  ]
+}
